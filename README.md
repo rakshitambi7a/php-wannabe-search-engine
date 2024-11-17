@@ -20,7 +20,7 @@
 
 2. Navigate to the project directory:
     ```sh
-    cd yourproject
+    cd php-wannabe-search-engine
     ```
 
 3. Install dependencies using Composer:
@@ -30,7 +30,7 @@
 
 4. Set up your `.env` file based on `.env.example`.
 
-5. Run database migrations (if any):
+5. Run database migrations:
     ```sh
     php artisan migrate
     ```
