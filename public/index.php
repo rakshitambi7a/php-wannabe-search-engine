@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Engine</title>
+    <link rel="icon" href="/public/assets/icons8-search-16.png" type="image/x-icon" sizes="16x16">
     <style>
 
         @font-face{
             font-family: "Papyrus W01";
-            src: url("../assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.eot");
-            src: url("../assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.eot?#iefix")format("embedded-opentype"),
-            url("../assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.woff")format("woff"),
-            url("../assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.woff2")format("woff2"),
-            url("../assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.ttf")format("truetype"),
-            url("../assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.svg#Papyrus W01")format("svg");
+            src: url("assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.eot");
+            src: url("assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.eot?#iefix")format("embedded-opentype"),
+            url("assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.woff")format("woff"),
+            url("assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.woff2")format("woff2"),
+            url("assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.ttf")format("truetype"),
+            url("assets/a0e1b1883c0cf520e9c50d0cd91cd0d0.svg#Papyrus W01")format("svg");
             font-weight:normal;
             font-style:normal;
             font-display:swap;
@@ -146,7 +147,7 @@
     <div class="logo">SearchEngine</div>
     <div class="tagline">Find what you're looking for</div>
     <div class="search-container">
-        <form class="search-form" action="../src/search.php" method="GET">
+        <form class="search-form" action="../app/views/search.php" method="GET">
             <input
                 type="text"
                 name="q"
