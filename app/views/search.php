@@ -1,5 +1,5 @@
 <?php
-require_once 'db_config.php';
+require_once '../config/db_config.php';
 
 try {
     $search_query = isset($_GET['q']) ? trim($_GET['q']) : '';
