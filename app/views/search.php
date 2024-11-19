@@ -216,12 +216,12 @@ LIMIT 10
 </head>
 <body>
 <header>
-    <a href="../../public" class="logo"><h1 >SearchEngine<h1></a>
-    <button class="sign-in">Sign In</button>
+    <a href="../../" class="logo"><h1 >SearchEngine<h1></a>
+    <button class="sign-in"><a href="../views/signin.php"> Sign In</a></button>
 </header>
 <main>
     <div class="search-container">
-        <form class="search-form" action="search.php" method="GET">
+        <form class="search-form" action="./search.php" method="GET">
             <input
                     type="text"
                     name="q"
