@@ -1,5 +1,5 @@
 <?php
-require_once 'db_config.php';
+require_once '../config/db_config.php';
 
 function downloadFile($url, $outputFile) {
     $fileContent = file_get_contents($url);

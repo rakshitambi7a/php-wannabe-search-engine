@@ -1,7 +1,7 @@
 <?php
 // insert_sample_data.php
 
-require_once './db_config.php';
+require_once '../config/db_config.php';
 require_once './insert_sample_data.php';
 
 $sample_data = [

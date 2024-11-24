@@ -1,7 +1,7 @@
 <?php
 // update_schema.php
 
-require_once 'db_config.php'; // Ensures this file sets up a valid $pdo object
+require_once '../config/db_config.php'; // Ensures this file sets up a valid $pdo object
 
 $sql = "CREATE TABLE IF NOT EXISTS top_sites (
     id INT AUTO_INCREMENT PRIMARY KEY,
